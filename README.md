@@ -17,3 +17,18 @@ Instructions:
   7. If no error occurs, you'll get the registration result in terminal.<br /><br />
       
   You can change the parameters passed into initialiation in registration_est_kf_rgbd.cpp and re-make to apply changes. 
+
+
+
+# cmake-gui installation and usage
+1. Download and install cmake version that matches your OS. https://cmake.org/
+2. Once cmake installed and configured:<br />
+   a. Go into the dual_quaternion_registration folder extracted out<br />
+   b. Make a build directory<br />
+   c. Open up cmake gui (type cmake-gui in terminal)<br />
+   d. Set source directory to dual_quaternion_registration<br />
+   e. Set build directory to one we just made<br />
+   f. Once you press configure, a menu should pop up asking which generator to use. Select one according to your OS.<br />
+   g. Ignore the toolset and compiler options. Native should work fine.<br />
+   h. Click generate.<br />
+   i. The cmake files should be generated into you build directory
