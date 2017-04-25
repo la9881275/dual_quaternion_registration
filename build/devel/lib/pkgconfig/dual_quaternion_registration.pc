@@ -1,0 +1,8 @@
+prefix=/home/biorobotics/Documents/qr_registration/build/devel
+
+Name: dual_quaternion_registration
+Description: Description of dual_quaternion_registration
+Version: 0.0.0
+Cflags: -I/home/biorobotics/Documents/qr_registration/include -I/usr/include/eigen3
+Libs: -L/home/biorobotics/Documents/qr_registration/build/devel/lib -ldual_quaternion_registration
+Requires: geometry_msgs roscpp sensor_msgs tf2 tf2_ros

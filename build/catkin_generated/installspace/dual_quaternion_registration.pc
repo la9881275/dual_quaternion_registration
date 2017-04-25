@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: dual_quaternion_registration
+Description: Description of dual_quaternion_registration
+Version: 0.0.0
+Cflags: -I/usr/local/include -I/usr/include/eigen3
+Libs: -L/usr/local/lib -ldual_quaternion_registration
+Requires: geometry_msgs roscpp sensor_msgs tf2 tf2_ros

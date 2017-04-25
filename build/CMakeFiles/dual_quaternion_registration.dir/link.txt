@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O2   -shared -Wl,-soname,libdual_quaternion_registration.so -o devel/lib/libdual_quaternion_registration.so CMakeFiles/dual_quaternion_registration.dir/src/compute_transformed_points.cpp.o CMakeFiles/dual_quaternion_registration.dir/src/KDTree.cpp.o 
